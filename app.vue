@@ -1,6 +1,8 @@
 <template>
   <div>
-    <!-- <NuxtWelcome /> -->
-    <h1 class="p-5 text-center text-5xl">Hello World</h1>
+    <NuxtLink to="/">Home</NuxtLink>
+    <NuxtLink to="/category">Category</NuxtLink>
+    <NuxtLink to="category/test">Test</NuxtLink>
+    <NuxtPage />
   </div>
 </template>
